@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BADE79026B614BD001E9CBE /* DNVR_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */; };
+		1BADE79226B614BD001E9CBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE79126B614BD001E9CBE /* HomeView.swift */; };
+		1BADE79426B614C0001E9CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BADE79326B614C0001E9CBE /* Assets.xcassets */; };
+		1BADE79726B614C0001E9CBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BADE79626B614C0001E9CBE /* Preview Assets.xcassets */; };
+		1BADE7A226B614C1001E9CBE /* DNVR_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7A126B614C1001E9CBE /* DNVR_DemoTests.swift */; };
+		1BADE7AD26B614C1001E9CBE /* DNVR_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7AC26B614C1001E9CBE /* DNVR_DemoUITests.swift */; };
+		1BADE7BB26B61B39001E9CBE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7BA26B61B39001E9CBE /* SearchBar.swift */; };
+		1BADE7BD26B75C10001E9CBE /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7BC26B75C10001E9CBE /* AppTabView.swift */; };
+		1BADE7C026B75DAB001E9CBE /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7BF26B75DAB001E9CBE /* TeamView.swift */; };
+		1BADE7C226B75DBC001E9CBE /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7C126B75DBC001E9CBE /* VideosView.swift */; };
+		1BADE7C426B75DC7001E9CBE /* PodcastsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7C326B75DC7001E9CBE /* PodcastsView.swift */; };
+		1BADE7C626B75DD5001E9CBE /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7C526B75DD5001E9CBE /* StoreView.swift */; };
+		1BADE7C926B7611F001E9CBE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7C826B7611F001E9CBE /* Article.swift */; };
+		1BADE7CB26B76202001E9CBE /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7CA26B76202001E9CBE /* NavBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BADE79E26B614C1001E9CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BADE78426B614BD001E9CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BADE78B26B614BD001E9CBE;
+			remoteInfo = "DNVR Demo";
+		};
+		1BADE7A926B614C1001E9CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BADE78426B614BD001E9CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BADE78B26B614BD001E9CBE;
+			remoteInfo = "DNVR Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BADE78C26B614BD001E9CBE /* DNVR Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNVR Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNVR_DemoApp.swift; sourceTree = "<group>"; };
+		1BADE79126B614BD001E9CBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1BADE79326B614C0001E9CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BADE79626B614C0001E9CBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BADE79826B614C0001E9CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BADE79D26B614C1001E9CBE /* DNVR DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNVR DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BADE7A126B614C1001E9CBE /* DNVR_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNVR_DemoTests.swift; sourceTree = "<group>"; };
+		1BADE7A326B614C1001E9CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BADE7A826B614C1001E9CBE /* DNVR DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNVR DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BADE7AC26B614C1001E9CBE /* DNVR_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNVR_DemoUITests.swift; sourceTree = "<group>"; };
+		1BADE7AE26B614C1001E9CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BADE7BA26B61B39001E9CBE /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1BADE7BC26B75C10001E9CBE /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		1BADE7BF26B75DAB001E9CBE /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		1BADE7C126B75DBC001E9CBE /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		1BADE7C326B75DC7001E9CBE /* PodcastsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsView.swift; sourceTree = "<group>"; };
+		1BADE7C526B75DD5001E9CBE /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		1BADE7C826B7611F001E9CBE /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		1BADE7CA26B76202001E9CBE /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BADE78926B614BD001E9CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BADE79A26B614C1001E9CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BADE7A526B614C1001E9CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BADE78326B614BD001E9CBE = {
+			isa = PBXGroup;
+			children = (
+				1BADE78E26B614BD001E9CBE /* DNVR Demo */,
+				1BADE7A026B614C1001E9CBE /* DNVR DemoTests */,
+				1BADE7AB26B614C1001E9CBE /* DNVR DemoUITests */,
+				1BADE78D26B614BD001E9CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BADE78D26B614BD001E9CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE78C26B614BD001E9CBE /* DNVR Demo.app */,
+				1BADE79D26B614C1001E9CBE /* DNVR DemoTests.xctest */,
+				1BADE7A826B614C1001E9CBE /* DNVR DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BADE78E26B614BD001E9CBE /* DNVR Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE7C726B76086001E9CBE /* Model */,
+				1BADE7BE26B75D83001E9CBE /* Screens */,
+				1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */,
+				1BADE79326B614C0001E9CBE /* Assets.xcassets */,
+				1BADE79826B614C0001E9CBE /* Info.plist */,
+				1BADE79526B614C0001E9CBE /* Preview Content */,
+				1BADE7BA26B61B39001E9CBE /* SearchBar.swift */,
+				1BADE7BC26B75C10001E9CBE /* AppTabView.swift */,
+			);
+			path = "DNVR Demo";
+			sourceTree = "<group>";
+		};
+		1BADE79526B614C0001E9CBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE79626B614C0001E9CBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BADE7A026B614C1001E9CBE /* DNVR DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE7A126B614C1001E9CBE /* DNVR_DemoTests.swift */,
+				1BADE7A326B614C1001E9CBE /* Info.plist */,
+			);
+			path = "DNVR DemoTests";
+			sourceTree = "<group>";
+		};
+		1BADE7AB26B614C1001E9CBE /* DNVR DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE7AC26B614C1001E9CBE /* DNVR_DemoUITests.swift */,
+				1BADE7AE26B614C1001E9CBE /* Info.plist */,
+			);
+			path = "DNVR DemoUITests";
+			sourceTree = "<group>";
+		};
+		1BADE7BE26B75D83001E9CBE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE79126B614BD001E9CBE /* HomeView.swift */,
+				1BADE7BF26B75DAB001E9CBE /* TeamView.swift */,
+				1BADE7C126B75DBC001E9CBE /* VideosView.swift */,
+				1BADE7C326B75DC7001E9CBE /* PodcastsView.swift */,
+				1BADE7C526B75DD5001E9CBE /* StoreView.swift */,
+				1BADE7CA26B76202001E9CBE /* NavBar.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1BADE7C726B76086001E9CBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE7C826B7611F001E9CBE /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BADE78B26B614BD001E9CBE /* DNVR Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BADE7B126B614C1001E9CBE /* Build configuration list for PBXNativeTarget "DNVR Demo" */;
+			buildPhases = (
+				1BADE78826B614BD001E9CBE /* Sources */,
+				1BADE78926B614BD001E9CBE /* Frameworks */,
+				1BADE78A26B614BD001E9CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNVR Demo";
+			productName = "DNVR Demo";
+			productReference = 1BADE78C26B614BD001E9CBE /* DNVR Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BADE79C26B614C1001E9CBE /* DNVR DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BADE7B426B614C1001E9CBE /* Build configuration list for PBXNativeTarget "DNVR DemoTests" */;
+			buildPhases = (
+				1BADE79926B614C1001E9CBE /* Sources */,
+				1BADE79A26B614C1001E9CBE /* Frameworks */,
+				1BADE79B26B614C1001E9CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BADE79F26B614C1001E9CBE /* PBXTargetDependency */,
+			);
+			name = "DNVR DemoTests";
+			productName = "DNVR DemoTests";
+			productReference = 1BADE79D26B614C1001E9CBE /* DNVR DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BADE7A726B614C1001E9CBE /* DNVR DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BADE7B726B614C1001E9CBE /* Build configuration list for PBXNativeTarget "DNVR DemoUITests" */;
+			buildPhases = (
+				1BADE7A426B614C1001E9CBE /* Sources */,
+				1BADE7A526B614C1001E9CBE /* Frameworks */,
+				1BADE7A626B614C1001E9CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BADE7AA26B614C1001E9CBE /* PBXTargetDependency */,
+			);
+			name = "DNVR DemoUITests";
+			productName = "DNVR DemoUITests";
+			productReference = 1BADE7A826B614C1001E9CBE /* DNVR DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BADE78426B614BD001E9CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1BADE78B26B614BD001E9CBE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1BADE79C26B614C1001E9CBE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1BADE78B26B614BD001E9CBE;
+					};
+					1BADE7A726B614C1001E9CBE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1BADE78B26B614BD001E9CBE;
+					};
+				};
+			};
+			buildConfigurationList = 1BADE78726B614BD001E9CBE /* Build configuration list for PBXProject "DNVR Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BADE78326B614BD001E9CBE;
+			productRefGroup = 1BADE78D26B614BD001E9CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BADE78B26B614BD001E9CBE /* DNVR Demo */,
+				1BADE79C26B614C1001E9CBE /* DNVR DemoTests */,
+				1BADE7A726B614C1001E9CBE /* DNVR DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BADE78A26B614BD001E9CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADE79726B614C0001E9CBE /* Preview Assets.xcassets in Resources */,
+				1BADE79426B614C0001E9CBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BADE79B26B614C1001E9CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BADE7A626B614C1001E9CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BADE78826B614BD001E9CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADE79226B614BD001E9CBE /* HomeView.swift in Sources */,
+				1BADE79026B614BD001E9CBE /* DNVR_DemoApp.swift in Sources */,
+				1BADE7C926B7611F001E9CBE /* Article.swift in Sources */,
+				1BADE7C626B75DD5001E9CBE /* StoreView.swift in Sources */,
+				1BADE7C226B75DBC001E9CBE /* VideosView.swift in Sources */,
+				1BADE7CB26B76202001E9CBE /* NavBar.swift in Sources */,
+				1BADE7C026B75DAB001E9CBE /* TeamView.swift in Sources */,
+				1BADE7C426B75DC7001E9CBE /* PodcastsView.swift in Sources */,
+				1BADE7BD26B75C10001E9CBE /* AppTabView.swift in Sources */,
+				1BADE7BB26B61B39001E9CBE /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BADE79926B614C1001E9CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADE7A226B614C1001E9CBE /* DNVR_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BADE7A426B614C1001E9CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADE7AD26B614C1001E9CBE /* DNVR_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BADE79F26B614C1001E9CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BADE78B26B614BD001E9CBE /* DNVR Demo */;
+			targetProxy = 1BADE79E26B614C1001E9CBE /* PBXContainerItemProxy */;
+		};
+		1BADE7AA26B614C1001E9CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BADE78B26B614BD001E9CBE /* DNVR Demo */;
+			targetProxy = 1BADE7A926B614C1001E9CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BADE7AF26B614C1001E9CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BADE7B026B614C1001E9CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BADE7B226B614C1001E9CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DNVR Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = CPX7UMGPRQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DNVR Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangentsystems.DNVR-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BADE7B326B614C1001E9CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DNVR Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = CPX7UMGPRQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DNVR Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangentsystems.DNVR-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BADE7B526B614C1001E9CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7UMGPRQ;
+				INFOPLIST_FILE = "DNVR DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangentsystems.DNVR-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNVR Demo.app/DNVR Demo";
+			};
+			name = Debug;
+		};
+		1BADE7B626B614C1001E9CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7UMGPRQ;
+				INFOPLIST_FILE = "DNVR DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangentsystems.DNVR-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNVR Demo.app/DNVR Demo";
+			};
+			name = Release;
+		};
+		1BADE7B826B614C1001E9CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7UMGPRQ;
+				INFOPLIST_FILE = "DNVR DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangentsystems.DNVR-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DNVR Demo";
+			};
+			name = Debug;
+		};
+		1BADE7B926B614C1001E9CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPX7UMGPRQ;
+				INFOPLIST_FILE = "DNVR DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangentsystems.DNVR-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DNVR Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BADE78726B614BD001E9CBE /* Build configuration list for PBXProject "DNVR Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BADE7AF26B614C1001E9CBE /* Debug */,
+				1BADE7B026B614C1001E9CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BADE7B126B614C1001E9CBE /* Build configuration list for PBXNativeTarget "DNVR Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BADE7B226B614C1001E9CBE /* Debug */,
+				1BADE7B326B614C1001E9CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BADE7B426B614C1001E9CBE /* Build configuration list for PBXNativeTarget "DNVR DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BADE7B526B614C1001E9CBE /* Debug */,
+				1BADE7B626B614C1001E9CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BADE7B726B614C1001E9CBE /* Build configuration list for PBXNativeTarget "DNVR DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BADE7B826B614C1001E9CBE /* Debug */,
+				1BADE7B926B614C1001E9CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BADE78426B614BD001E9CBE /* Project object */;
+}
