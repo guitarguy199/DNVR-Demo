@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7619B626B8ADEE00E5F23F /* NewsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7619B526B8ADEE00E5F23F /* NewsCollectionView.swift */; };
 		1BADE79026B614BD001E9CBE /* DNVR_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */; };
 		1BADE79226B614BD001E9CBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE79126B614BD001E9CBE /* HomeView.swift */; };
 		1BADE79426B614C0001E9CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BADE79326B614C0001E9CBE /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7619B526B8ADEE00E5F23F /* NewsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionView.swift; sourceTree = "<group>"; };
 		1BADE78C26B614BD001E9CBE /* DNVR Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNVR Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNVR_DemoApp.swift; sourceTree = "<group>"; };
 		1BADE79126B614BD001E9CBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7619B226B8AC6400E5F23F /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BADE7BA26B61B39001E9CBE /* SearchBar.swift */,
+				1B7619B526B8ADEE00E5F23F /* NewsCollectionView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
 		1BADE78326B614BD001E9CBE = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				1BADE7C726B76086001E9CBE /* Model */,
+				1B7619B226B8AC6400E5F23F /* Supporting Views */,
 				1BADE7BE26B75D83001E9CBE /* Screens */,
 				1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */,
 				1BADE79326B614C0001E9CBE /* Assets.xcassets */,
 				1BADE79826B614C0001E9CBE /* Info.plist */,
 				1BADE79526B614C0001E9CBE /* Preview Content */,
-				1BADE7BA26B61B39001E9CBE /* SearchBar.swift */,
 				1BADE7BC26B75C10001E9CBE /* AppTabView.swift */,
 			);
 			path = "DNVR Demo";
@@ -305,6 +316,7 @@
 				1BADE79226B614BD001E9CBE /* HomeView.swift in Sources */,
 				1BADE79026B614BD001E9CBE /* DNVR_DemoApp.swift in Sources */,
 				1BADE7C926B7611F001E9CBE /* Article.swift in Sources */,
+				1B7619B626B8ADEE00E5F23F /* NewsCollectionView.swift in Sources */,
 				1BADE7C626B75DD5001E9CBE /* StoreView.swift in Sources */,
 				1BADE7C226B75DBC001E9CBE /* VideosView.swift in Sources */,
 				1BADE7CB26B76202001E9CBE /* NavBar.swift in Sources */,
