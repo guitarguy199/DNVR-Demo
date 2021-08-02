@@ -21,6 +21,7 @@
 		1BADE7C626B75DD5001E9CBE /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7C526B75DD5001E9CBE /* StoreView.swift */; };
 		1BADE7C926B7611F001E9CBE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7C826B7611F001E9CBE /* Article.swift */; };
 		1BADE7CB26B76202001E9CBE /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7CA26B76202001E9CBE /* NavBar.swift */; };
+		1BADE7CD26B76F78001E9CBE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE7CC26B76F78001E9CBE /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		1BADE7C526B75DD5001E9CBE /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		1BADE7C826B7611F001E9CBE /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		1BADE7CA26B76202001E9CBE /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		1BADE7CC26B76F78001E9CBE /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				1BADE7C826B7611F001E9CBE /* Article.swift */,
+				1BADE7CC26B76F78001E9CBE /* Team.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				1BADE7CB26B76202001E9CBE /* NavBar.swift in Sources */,
 				1BADE7C026B75DAB001E9CBE /* TeamView.swift in Sources */,
 				1BADE7C426B75DC7001E9CBE /* PodcastsView.swift in Sources */,
+				1BADE7CD26B76F78001E9CBE /* Team.swift in Sources */,
 				1BADE7BD26B75C10001E9CBE /* AppTabView.swift in Sources */,
 				1BADE7BB26B61B39001E9CBE /* SearchBar.swift in Sources */,
 			);
