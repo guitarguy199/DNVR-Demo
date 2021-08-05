@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PodcastCollectionView: View {
     
-//    @State var image: String
+    @State var image: String
 
     let columns = [
         GridItem(.flexible()),
@@ -22,7 +22,7 @@ struct PodcastCollectionView: View {
                 ForEach(0...20, id: \.self) { _ in
                     VStack {
                         
-                        Image("rockies-podcast")
+                        Image(image)
                             .resizable()
                             .frame(width: 150, height: 150)
                         
@@ -35,7 +35,7 @@ struct PodcastCollectionView: View {
                             .font(.subheadline)
                             .multilineTextAlignment(.center)
                             .minimumScaleFactor(0.75)
-//                            .padding(.top, 3)
+                            .padding(.top, 3)
                         
                         Text("by Dinger")
                             .font(.caption2)
@@ -49,6 +49,6 @@ struct PodcastCollectionView: View {
 
 struct PodcastCollectionView_Previews: PreviewProvider {
     static var previews: some View {
-        PodcastCollectionView()
+        PodcastCollectionView(image: "rockies-podcast")
     }
 }

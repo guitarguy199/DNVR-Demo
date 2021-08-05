@@ -18,7 +18,7 @@ struct TeamView: View {
     
     var body: some View {
         VStack {
-            NavBar()
+           NavBar()
             
             Spacer()
             

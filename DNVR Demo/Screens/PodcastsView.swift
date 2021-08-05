@@ -77,25 +77,25 @@ struct CustomTabBar: View {
 
 struct BroncosView: View {
     var body: some View {
-        PodcastCollectionView()
+        PodcastCollectionView(image: "broncos-podcast")
     }
 }
 
 struct RockiesView: View {
     var body: some View {
-        PodcastCollectionView()
+        PodcastCollectionView(image: "rockies-podcast")
         }
     }
 
 struct AvsView: View {
     var body: some View {
-        PodcastCollectionView()
+        PodcastCollectionView(image: "avs-podcast")
     }
 }
 
     struct NuggsView: View {
         var body: some View {
-           PodcastCollectionView()
+            PodcastCollectionView(image: "nuggets-podcast")
         }
     }
 

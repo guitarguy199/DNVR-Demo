@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B610EEF26BC926100F13C19 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B610EEE26BC926100F13C19 /* Video.swift */; };
 		1B7619B626B8ADEE00E5F23F /* NewsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7619B526B8ADEE00E5F23F /* NewsCollectionView.swift */; };
 		1B7619B826B8B44700E5F23F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7619B726B8B44700E5F23F /* SideMenu.swift */; };
 		1B7619BC26BB9BBA00E5F23F /* PodcastCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7619BB26BB9BBA00E5F23F /* PodcastCollectionView.swift */; };
 		1B7619C026BBA0FF00E5F23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7619BF26BBA0FF00E5F23F /* Assets.xcassets */; };
+		1B761A1526BC61E400E5F23F /* TestMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B761A1426BC61E400E5F23F /* TestMenu.swift */; };
 		1BADE79026B614BD001E9CBE /* DNVR_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */; };
 		1BADE79226B614BD001E9CBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADE79126B614BD001E9CBE /* HomeView.swift */; };
 		1BADE79726B614C0001E9CBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BADE79626B614C0001E9CBE /* Preview Assets.xcassets */; };
@@ -45,10 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B610EEE26BC926100F13C19 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		1B7619B526B8ADEE00E5F23F /* NewsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionView.swift; sourceTree = "<group>"; };
 		1B7619B726B8B44700E5F23F /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		1B7619BB26BB9BBA00E5F23F /* PodcastCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCollectionView.swift; sourceTree = "<group>"; };
 		1B7619BF26BBA0FF00E5F23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B761A1426BC61E400E5F23F /* TestMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenu.swift; sourceTree = "<group>"; };
 		1BADE78C26B614BD001E9CBE /* DNVR Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNVR Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BADE78F26B614BD001E9CBE /* DNVR_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNVR_DemoApp.swift; sourceTree = "<group>"; };
 		1BADE79126B614BD001E9CBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				1B7619B526B8ADEE00E5F23F /* NewsCollectionView.swift */,
 				1B7619B726B8B44700E5F23F /* SideMenu.swift */,
 				1B7619BB26BB9BBA00E5F23F /* PodcastCollectionView.swift */,
+				1B761A1426BC61E400E5F23F /* TestMenu.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			children = (
 				1BADE7C826B7611F001E9CBE /* Article.swift */,
 				1BADE7CC26B76F78001E9CBE /* Team.swift */,
+				1B610EEE26BC926100F13C19 /* Video.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 				1BADE79226B614BD001E9CBE /* HomeView.swift in Sources */,
 				1BADE79026B614BD001E9CBE /* DNVR_DemoApp.swift in Sources */,
 				1BADE7C926B7611F001E9CBE /* Article.swift in Sources */,
+				1B761A1526BC61E400E5F23F /* TestMenu.swift in Sources */,
 				1B7619B626B8ADEE00E5F23F /* NewsCollectionView.swift in Sources */,
 				1BADE7C626B75DD5001E9CBE /* StoreView.swift in Sources */,
 				1BADE7C226B75DBC001E9CBE /* VideosView.swift in Sources */,
@@ -331,6 +338,7 @@
 				1BADE7C426B75DC7001E9CBE /* PodcastsView.swift in Sources */,
 				1BADE7CD26B76F78001E9CBE /* Team.swift in Sources */,
 				1BADE7BD26B75C10001E9CBE /* AppTabView.swift in Sources */,
+				1B610EEF26BC926100F13C19 /* Video.swift in Sources */,
 				1BADE7BB26B61B39001E9CBE /* SearchBar.swift in Sources */,
 				1B7619BC26BB9BBA00E5F23F /* PodcastCollectionView.swift in Sources */,
 			);
