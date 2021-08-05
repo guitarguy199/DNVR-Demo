@@ -23,7 +23,7 @@ struct TeamView: View {
             Spacer()
             
             Text("Teams")
-                .font(.headline)
+                .font(.largeTitle)
                 
             
             List(teams) { team in
@@ -51,7 +51,7 @@ struct TeamCell: View {
         VStack(alignment: .center) {
             Image(uiImage: team.logo)
                 .resizable()
-                .frame(width: 120, height: 120, alignment: .center)
+                .frame(width: 130, height: 130, alignment: .center)
             Spacer()
             HStack {
                 Spacer()
